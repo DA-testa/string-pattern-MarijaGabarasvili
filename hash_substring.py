@@ -56,7 +56,7 @@ def get_occurrences(pattern, text):
                     break;
             j=j+1
             if j==len_of_pattern:
-                result = result+str(i)+" "
+                result = result+str(i)+""
 
 
         if(i<len_of_text-len_of_pattern):
