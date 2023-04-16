@@ -62,7 +62,7 @@ def get_occurrences(pattern, text):
 
 
         if(i<len_of_text-len_of_pattern):
-            hash_fot_text = (b*(hash_fot_text-ord(text[i])*multiplier) + ord(text[i+len_of_pattern]))%Q
+            hash_fot_text = (B*(hash_fot_text-ord(text[i])*multiplier) + ord(text[i+len_of_pattern]))%Q
             if hash_fot_text<0:
                 hash_fot_text = hash_fot_text + Q
     # and return an iterable variable
