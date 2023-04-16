@@ -38,7 +38,7 @@ def get_occurrences(pattern, text):
 
     len_of_pattern = len(pattern)
     len_of_text = len(text)
-    result = ""
+    result = " "
     multiplier = 1
     hash_for_pattern = 0
     hash_fot_text = 0
