@@ -47,8 +47,6 @@ def get_occurrences(pattern, text):
 
     for i in range(len_of_pattern):
         hash_for_pattern = (B * hash_for_pattern + ord(pattern[i]))%Q
-
-    for i in range(len_of_text):
         hash_fot_text = (B * hash_fot_text + ord(text[i]))%Q
 
     for i in range(1+len_of_text-len_of_pattern):
